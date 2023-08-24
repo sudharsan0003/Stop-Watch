@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+.main {
+  height: 250px;
+  width: 400px;
+  margin: 10rem auto;
+  background-color: rgb(233, 126, 49);
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  color: white;
+  border-radius: 6px;
+}
+.title {
+  font-size: 48px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 2rem;
+}
